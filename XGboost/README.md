@@ -3,18 +3,19 @@
 ### 🔹 Ngôn ngữ lập trình
 - **Python 3.9+**
 
-### 🔹 Thư viện xử lý dữ liệu
-- `pandas` – xử lý và phân tích dữ liệu bảng
-- `numpy` – tính toán số học
-
-### 🔹 Thư viện Machine Learning
-- `scikit-learn`
-  - `LogisticRegression`
-  - `RandomForestClassifier`
-  - `train_test_split`
-  - `StandardScaler`
-  - `classification_report`
-  - `confusion_matrix`
+### 🔹 Thư viện chính
+- **NumPy** – xử lý toán học và mảng số
+- **Pandas** – xử lý dữ liệu dạng bảng
+- **Scikit-learn** – chia tập dữ liệu, đánh giá mô hình
+- **XGBoost** – mô hình học máy chính dùng để huấn luyện và dự đoán
+- **Matplotlib & Seaborn** – trực quan hóa kết quả
+- 
+### XGBoost (Extreme Gradient Boosting)
+Dự án sử dụng **XGBoost Classifier**, một thuật toán boosting mạnh mẽ với các ưu điểm:
+- Hiệu quả cao với dữ liệu bảng (tabular data)
+- Giảm overfitting tốt
+- Huấn luyện nhanh và chính xác
+- Phù hợp cho bài toán phân loại nhiều lớp (Home – Draw – Away)
 
 ### 🔹 Feature Engineering
 - Lịch sử 5 trận gần nhất (win/draw rate, goals, shots)
